@@ -8087,7 +8087,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 175.26) (xy 201.93 175.26)
+			(xy 250.19 81.28) (xy 261.62 81.28)
 		)
 		(stroke
 			(width 0)
@@ -10187,7 +10187,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 172.72) (xy 201.93 172.72)
+			(xy 250.19 78.74) (xy 261.62 78.74)
 		)
 		(stroke
 			(width 0)
@@ -10598,7 +10598,7 @@
 		(uuid "8b36462f-0b37-469f-81c9-9dee437f1d24")
 	)
 	(label "UART1_TX"
-		(at 190.5 172.72 0)
+		(at 250.19 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10851,7 +10851,7 @@
 		(uuid "f8deaf14-32aa-400a-8fe2-1e607482cb7a")
 	)
 	(label "UART1_RX"
-		(at 190.5 175.26 0)
+		(at 250.19 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12955,7 +12955,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 201.93 170.18 0)
+		(at 261.62 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12964,7 +12964,7 @@
 		(fields_autoplaced yes)
 		(uuid "30eb24e1-4e3f-44fd-8edd-7dd4e47da994")
 		(property "Reference" "#PWR026"
-			(at 201.93 173.99 0)
+			(at 261.62 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12973,7 +12973,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 201.93 165.1 0)
+			(at 261.62 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12981,7 +12981,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 170.18 0)
+			(at 261.62 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12990,7 +12990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 170.18 0)
+			(at 261.62 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12999,7 +12999,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 170.18 0)
+			(at 261.62 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13919,7 +13919,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 207.01 172.72 0)
+		(at 266.7 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13927,7 +13927,7 @@
 		(dnp no)
 		(uuid "6656ab78-46c1-4a43-8496-e3b75f99db25")
 		(property "Reference" "J3"
-			(at 209.55 172.7199 0)
+			(at 269.24 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13936,7 +13936,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 205.232 180.34 0)
+			(at 264.922 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13945,7 +13945,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 207.01 172.72 0)
+			(at 266.7 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13954,7 +13954,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 172.72 0)
+			(at 266.7 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13963,7 +13963,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 207.01 172.72 0)
+			(at 266.7 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16448,7 +16448,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 177.8 0)
+		(at 261.62 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16456,7 +16456,7 @@
 		(dnp no)
 		(uuid "b7b917ae-5093-4ce6-9c1f-1385e3b2b5bc")
 		(property "Reference" "#PWR027"
-			(at 201.93 184.15 0)
+			(at 261.62 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16465,7 +16465,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 180.848 90)
+			(at 261.62 86.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16474,7 +16474,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 177.8 0)
+			(at 261.62 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16483,7 +16483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 177.8 0)
+			(at 261.62 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16492,7 +16492,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 177.8 0)
+			(at 261.62 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
