@@ -1,0 +1,24 @@
+{
+    "refer": {
+        "functions": {
+            "baro-fun": {
+                "comments": "外接气压相关",
+                "refs": "R1,R2,C1,U2",
+                "nc": ""
+            }
+        }
+    },
+    "boards": [
+        {
+            "name": "EGS01-R4T4L2A-Baro 雾化片款 ",
+            "functions": [
+            ]
+        },
+        {
+            "name": "EGS01-R4Q4L2C-Baro 水泵 气压款",
+            "functions": [
+                "baro-fun"
+            ]
+        }
+    ]
+}

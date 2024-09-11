@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Cadence\SPB_Data\Customers\CleanRobotSquarePCB\kicad\cleanrobot-square-switch\cleanrobot-square-switch.kicad_sch</source>
+    <date>15/09/2022 20:03:39</date>
+    <tool>Eeschema (6.0.4)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>EHSLS-01-Switch</title>
+        <company>Timye</company>
+        <rev>V0.1</rev>
+        <date>2022-05-09</date>
+        <source>cleanrobot-square-switch.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>LED_Dual_Red_Blue</value>
+      <footprint>Ovo_LED_SMD:LED_Dual_1.6x1.5mm</footprint>
+      <libsource lib="Device" part="LED_Dual_AKAK" description="Dual LED, cathodes on pins 2 and 4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3182f5ed-5912-4737-be47-9e9dff3317d2</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED_Dual_Red_Blue</value>
+      <footprint>Ovo_LED_SMD:LED_Dual_1.6x1.5mm</footprint>
+      <libsource lib="Device" part="LED_Dual_AKAK" description="Dual LED, cathodes on pins 2 and 4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22e2e813-539c-4ff6-b88a-b3dd4f904a39</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED_Dual_Orange_Green</value>
+      <footprint>Ovo_LED_SMD:LED_Dual_1.6x1.5mm</footprint>
+      <libsource lib="" part="LED_Dual_AKAK_1" description="Dual LED, cathodes on pins 2 and 4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0fd7bff9-d5a9-405d-a396-acf4bb63aa5b</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED_Dual_Orange_Green</value>
+      <footprint>Ovo_LED_SMD:LED_Dual_1.6x1.5mm</footprint>
+      <libsource lib="" part="LED_Dual_AKAK_1" description="Dual LED, cathodes on pins 2 and 4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b82abe6-9554-4381-933d-889316233e1c</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>ZH1.5MM/8A</value>
+      <footprint>Ovo_Connector_JST:JST_ZH_B08B-ZR_1x08_P1.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69fcf18a-87af-4e70-a7b2-65d032fc2c08</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>6x6x5mm</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c333dd80-ebcd-4176-8540-f27f948a4f9b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="LED_Dual_AKAK_1">
+      <description>Dual LED, cathodes on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D?</field>
+        <field name="Value">LED_Dual_Orange_Green</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="input"/>
+        <pin num="2" name="K1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="K2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_Dual_AKAK">
+      <description>Dual LED, cathodes on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D?</field>
+        <field name="Value">LED_Dual_AKAK</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="input"/>
+        <pin num="2" name="K1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="K2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="D1" pin="1" pinfunction="A1" pintype="input"/>
+      <node ref="D1" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="D2" pin="1" pinfunction="A1" pintype="input"/>
+      <node ref="D2" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="2" name="/24V">
+      <node ref="D3" pin="1" pinfunction="A1" pintype="input"/>
+      <node ref="D3" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="D4" pin="1" pinfunction="A1" pintype="input"/>
+      <node ref="D4" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="3" name="/CHG_DONE_LED">
+      <node ref="D3" pin="4" pinfunction="K2" pintype="input"/>
+      <node ref="D4" pin="4" pinfunction="K2" pintype="input"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="4" name="/CHG_ON_LED">
+      <node ref="D3" pin="2" pinfunction="K1" pintype="input"/>
+      <node ref="D4" pin="2" pinfunction="K1" pintype="input"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="5" name="/START">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="K1" pintype="input"/>
+      <node ref="D2" pin="2" pinfunction="K1" pintype="input"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad4)">
+      <node ref="D1" pin="4" pinfunction="K2" pintype="input"/>
+      <node ref="D2" pin="4" pinfunction="K2" pintype="input"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+  </nets>
+</export>

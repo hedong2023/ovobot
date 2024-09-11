@@ -1,0 +1,221 @@
+{
+    "refer": {
+        "functions": {
+            "batt-check-fun": {
+                "comments": "电池温度检测与充电开关相关",
+                "refs": "R64,C63,Q14",
+                "nc": ""
+            },
+            "batt-checkled-fun": {
+                "comments": "电池充电LED状态检测相关",
+                "refs": "Q16,R94,R95,R92,R93",
+                "nc": ""
+            },
+            "btn-with-leds-fun": {
+                "comments": "带灯按键板相关",
+                "refs": "R81,R82,R83,R84,Q12,Q13,",
+                "nc": "R85"
+            },
+            "voice-fun": {
+                "comments": "语音相关",
+                "refs": "R10,R11,R44,R59,C19,C23,C28,C29,C30,C50,U9,U11,LS1",
+                "nc": ""
+            },
+            "ir-fun": {
+                "comments": "红外相关",
+                "refs": "R43,C17,U5",
+                "nc": ""
+            },
+            "2.4g-gh6220b-fun": {
+                "comments": "遥控GH6220B-Y1改16MHz相关",
+                "refs": "U18",
+                "nc": "U1"
+            },
+            "2spray-fun": {
+                "comments": "双喷水相关",
+                "refs": "R22,R23,R47,R48,R86,C52,C56,C57,C66,C67,F1,Q5,Q6,L8,L9,J8,J9",
+                "nc": ""
+            },
+            "water-det-fun": {
+                "comments": "水量检测相关",
+                "refs": "R61,R62,C68,Q2,J15",
+                "nc": ""
+            },
+            "brush-fan-fun": {
+                "comments": "有刷风机相关, 改J3为XH2.54MM/2AW",
+                "refs": "R30,R74,D9,Q11",
+                "nc": ""
+            },
+            "brushless-fan-fun": {
+                "comments": "无刷风机相关",
+                "refs": "R79,D8",
+                "nc": ""
+            },
+            "baro-fun": {
+                "comments": "气压检测相关",
+                "refs": "J17",
+                "nc": ""
+            },
+            "redmond-fun": {
+                "comments": "愚公模块相关",
+                "refs": "R6,R7,R80,C9,C11,U3",
+                "nc": ""
+            },
+            "tuya-bt3l-fun": {
+                "comments": "涂鸦蓝牙模块相关",
+                "refs": "R6,R7,C9,C11,U3",
+                "nc": ""
+            },
+            "tuya-wbr1-fun": {
+                "comments": "涂鸦WI-FI双模WBR1",
+                "refs": "C9,C11,R6,R7,U19",
+                "nc": ""
+            },
+            "lsm6dsr-fun": {
+                "comments": "LSM6DSR陀螺仪相关",
+                "refs": "C51,C53,C54,U16",
+                "nc": ""
+            }
+        }
+    },
+    "boards": [
+        {
+            "name": "EHDS01-G4N0L0A0-Main",
+            "functions": [
+                "tuya-bt3l-fun",
+                "brushless-fan-fun"
+            ]
+        },
+        {
+            "name": "EHDS01-G0N0L2A0-Main",
+            "functions": [
+                "brushless-fan-fun",
+                "voice-fun"
+            ]
+        },
+        {
+            "name": "EHDS01-G0T4L0A0-Main",
+            "functions": [
+                "2spray-fun",
+                "water-det-fun",
+                "brushless-fan-fun"
+            ]
+        },
+        {
+            "name": "EHDS01-G0T4L2A0-Main",
+            "functions": [
+                "2spray-fun",
+                "water-det-fun",
+                "brushless-fan-fun",
+                "voice-fun"
+            ]
+        },
+        {
+            "name": "EHDS01-G4T4B2A2-Main",
+            "functions": [
+                "tuya-bt3l-fun",
+                "2spray-fun",
+                "water-det-fun",
+                "brush-fan-fun",
+                "voice-fun",
+                "btn-with-leds-fun"
+            ],
+            "modifies": [
+                {
+                    "ref": "J3",
+                    "value": "XHB2.54MM/2A"
+                }
+            ]
+        },
+        {
+            "name": "EHDS01-G0T4B2A2-Main",
+            "functions": [
+                "2spray-fun",
+                "water-det-fun",
+                "brush-fan-fun",
+                "voice-fun",
+                "btn-with-leds-fun"
+            ],
+            "modifies": [
+                {
+                    "ref": "J3",
+                    "value": "XHB2.54MM/2A"
+                }
+            ]
+        },
+        {
+            "name": "EHDS01-G4T4L0A0-Main",
+            "functions": [
+                "tuya-bt3l-fun",
+                "2spray-fun",
+                "water-det-fun",
+                "brushless-fan-fun"
+            ]
+        },
+        {
+            "name": "EHDS01-G4T4L0A2-Main",
+            "functions": [
+                "tuya-bt3l-fun",
+                "2spray-fun",
+                "water-det-fun",
+                "brushless-fan-fun",
+                "btn-with-leds-fun"
+            ]
+        },
+        {
+            "name": "EHDS01-G4T4L2A0-Main",
+            "functions": [
+                "tuya-bt3l-fun",
+                "2spray-fun",
+                "water-det-fun",
+                "brushless-fan-fun",
+                "voice-fun"
+            ]
+        },
+        {
+            "name": "EHDS01-G4T4L2C2-Main-小达",
+            "functions": [
+                "tuya-bt3l-fun",
+                "2spray-fun",
+                "water-det-fun",
+                "brushless-fan-fun",
+                "voice-fun",
+                "baro-fun",
+                "btn-with-leds-fun"
+            ],
+            "modifies": [
+                {
+                    "ref": "U9",
+                    "value": "WT588F02B-8S-B2(EHDS-01小达)"
+                }
+            ]
+        },
+        {
+            "name": "EHDS01-G6T4L0A0-Main",
+            "functions": [
+                "tuya-wbr1-fun",
+                "2spray-fun",
+                "water-det-fun",
+                "brushless-fan-fun"
+            ]
+        },
+        {
+            "name": "EHDS01-G6T4L0A2-Main",
+            "functions": [
+                "2.4g-gh6220b-fun",
+                "tuya-wbr1-fun",
+                "2spray-fun",
+                "water-det-fun",
+                "brushless-fan-fun",
+                "btn-with-leds-fun",
+                "batt-checkled-fun"
+            ],
+            "modifies": [
+                {
+                    "ref": "Y1",
+                    "value": "16MHz/22pF(10ppm)"
+                }
+            ]
+        }
+    ]
+}

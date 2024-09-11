@@ -1,0 +1,22 @@
+{
+    "refer": {
+        "functions": {
+            "mpu6887-fun": {
+                "comments": "陀螺仪相关",
+                "refs": "U4,C13,C16,C14,C18",
+                "nc": ""
+            },
+            "2.4g-nc-fun": {
+                "comments": "2.4G遥控不帖器件相关",
+                "refs": "C1,C2,AE1",
+                "nc": ""
+            }
+        }
+    },
+    "boards": [
+        {
+            "name": "XCS03A-G4P2L2C2-Main",
+            "functions": []
+        }
+    ]
+}

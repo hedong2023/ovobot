@@ -1,0 +1,24 @@
+{
+    "refer": {
+        "functions": {
+            "tuya-bt3l-fun": {
+                "comments": "涂鸦蓝牙模块相关",
+                "refs": "R6,R7,C9,C11,U3",
+                "nc": ""
+            }
+        }
+    },
+    "boards": [
+        {
+            "name": "EZS03-G4T0L0A0-带涂鸦",
+            "functions": [
+                "tuya-bt3l-fun"
+            ]
+        },
+        {
+            "name": "EZS03-G0T0L0A0-不带涂鸦",
+            "functions": [
+            ]
+        }
+    ]
+}

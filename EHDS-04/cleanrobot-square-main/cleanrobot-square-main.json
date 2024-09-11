@@ -1,0 +1,59 @@
+{
+    "refer": {
+        "functions": {
+            "physical-switch-fun": {
+                "comments": "物理开关相关",
+                "refs": "SW1,R92",
+                "nc": "R91,R90,R89,R75,R76,R77,R78,Q3,Q10"
+            },
+            "baro-fun": {
+                "comments": "气压相关",
+                "refs": "C64,U18",
+                "nc": ""
+            },
+            "gyro-icm-42670-n": {
+                "comments": "ICM-42670-N陀螺仪",
+                "refs": "U16,C51,C53,C54",
+                "nc": "U4,C13,C14,C16,C18"
+            }
+        }
+    },
+    "boards": [
+        {
+            "name": "EHDS04-G4U4L2AX带物理开关MPU6887P",
+            "functions": [
+                "physical-switch-fun"
+            ]
+        },
+        {
+            "name": "EHDS04-G4U4L2AX MPU6887P",
+            "functions": [
+            ]
+        },
+        {
+            "name": "EHDS04-G4U4L2AX带物理开关ICM-42670-N",
+            "functions": [
+                "physical-switch-fun",
+                "gyro-icm-42670-n"
+            ],
+            "modifies": [
+                {
+                    "ref": "U16",
+                    "value": "ICM-42670-N"
+                }
+            ]
+        },
+        {
+            "name": "EHDS04-G4U4L2AX ICM-42670-N",
+            "functions": [
+                "gyro-icm-42670-n"
+            ],
+            "modifies": [
+                {
+                    "ref": "U16",
+                    "value": "ICM-42670-N"
+                }
+            ]
+        }
+    ]
+}

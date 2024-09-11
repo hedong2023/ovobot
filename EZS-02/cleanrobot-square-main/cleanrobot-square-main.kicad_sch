@@ -1,0 +1,254 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A4")
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 107.95 189.23) (xy 39.37 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d40051b-4af8-428b-9687-a0e5e608ad0e")
+	)
+	(polyline
+		(pts
+			(xy 39.37 132.08) (xy 39.37 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b7686bc-62db-4756-a60c-2a44d69edb52")
+	)
+	(polyline
+		(pts
+			(xy 39.37 132.08) (xy 107.95 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89036f51-503f-4a6f-ba4a-f8cdc0eee3e6")
+	)
+	(polyline
+		(pts
+			(xy 107.95 132.08) (xy 107.95 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5758b41-b751-451c-b60c-cf2a7c84cf2c")
+	)
+	(text "Timer分配：\n\nSTM32F030C8/HK32F030C8: \nTIM1(4) TIM3(4) TIM6(0) TIM14(1) TIM15(2)/16(1)/17(1)\nTIM1 (4 Channels) >>> 2个边轮马达驱动\nTIM3 (2 Channels) >>> 2个边轮马达测速\nTIM14 (1 Channel) >>> 风机马达\nTIM15 (2 Channel) >>> 2路喷水\nTIM6/16/17 >>> 定时中断\n\nGD32E230C8: \nTIM0(4) TIM2(4) TIM5(0) TIM13(1)/14(2)/15(1)/16(1)\nTIM0 (4 Channels) >>> 2个边轮马达驱动\nTIM2 (2 Channels) >>> 2个边轮马达测速\nTIM13 (1 Channel) >>> 风机马达\nTIM14 (2 Channel) >>> 2路喷水\nTIM5/15/16 >>> 定时中断\n\nMM32F0131C6/MM32F0144C6\nTIM1(4) TIM2(4) TIM3(4) TIM14(1) TIM16(1)/17(1)\nTIM1 (4 Channels) >>> 2个边轮马达驱动\nTIM3 (2 Channels) >>> 2个边轮马达测速\nTIM14 (1 Channel) >>> 风机马达\nTIM2 (2 Channel) >>> 2路喷水\nTIM16/17>>> 定时中断\n"
+		(exclude_from_sim no)
+		(at 43.18 186.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2217055e-9786-4f5c-b8cb-f8d9507a09dd")
+	)
+	(sheet
+		(at 114.3 82.55)
+		(size 71.12 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "05714f5f-e65d-45ba-92e9-40fd69c04c02")
+		(property "Sheetname" "peripheral"
+			(at 114.3 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripheral.kicad_sch"
+			(at 114.3 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cleanrobot-square-main"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 30.48)
+		(size 71.12 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "16b55504-8917-4939-a951-eb8148e52056")
+		(property "Sheetname" "power"
+			(at 114.3 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 114.3 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cleanrobot-square-main"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 82.55)
+		(size 68.58 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "407f56bf-8555-4c0e-a030-cf8b8f21cb08")
+		(property "Sheetname" "pump"
+			(at 39.37 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pump.kicad_sch"
+			(at 39.37 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cleanrobot-square-main"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 30.48)
+		(size 66.04 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b94a23d5-731a-400c-86e5-433210a6a497")
+		(property "Sheetname" "driver"
+			(at 193.04 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driver.kicad_sch"
+			(at 193.04 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cleanrobot-square-main"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 30.48)
+		(size 68.58 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f74cca70-5204-4b50-abb4-6fa1b362e084")
+		(property "Sheetname" "main"
+			(at 39.37 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main.kicad_sch"
+			(at 39.37 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cleanrobot-square-main"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

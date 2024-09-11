@@ -1,0 +1,27 @@
+{
+    "refer": {
+        "functions": {
+            "ambient-lighting-fun": {
+                "comments": "氛围灯相关",
+                "refs": "R1,R2,R3,Q1,J1",
+                "nc": ""
+            }
+           
+        }
+    },
+    
+"boards": [
+        {
+            "name": "EHDS-04-LED 不带氛围灯",
+            "functions": [
+            ]
+        },
+        {
+            "name": "EHDS-04-LED 带氛围灯",
+            "functions": [
+                "ambient-lighting-fun"
+            ]
+        }   
+        
+    ]
+}

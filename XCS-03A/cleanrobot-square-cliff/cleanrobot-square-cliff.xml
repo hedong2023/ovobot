@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Cadence\SPB_Data\Customers\CleanRobotSquarePCB\kicad\cleanrobot-square-cliff\cleanrobot-square-cliff.kicad_sch</source>
+    <date>09/05/2022 20:44:41</date>
+    <tool>Eeschema (6.0.4)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>EHSLS-01-Cliff</title>
+        <company>Timye</company>
+        <rev>V0.1</rev>
+        <date>2022-05-09</date>
+        <source>cleanrobot-square-cliff.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>ZH1.5MM/3A</value>
+      <footprint>Ovo_Connector_JST:JST_ZH_B03B-ZR_1x03_P1.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-cliff.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a78d74c-db0a-4170-bc01-ec730409e612</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ITR8102</value>
+      <footprint>Ovo_Sensor_Proximity:EverLight_ITR8102_14.0x6.0mm_P2.54mm</footprint>
+      <datasheet>https://atta.szlcsc.com/upload/public/pdf/source/20170303/1488533271045.pdf</datasheet>
+      <libsource lib="Ovo_Sensor_Proximity" part="ITR8105" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-cliff.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5cb50ea-5b55-4434-a58c-b839187ccbf0</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Ovo_Sensor_Proximity" part="ITR8105">
+      <docs>https://atta.szlcsc.com/upload/public/pdf/source/20170303/1488533271045.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ITR8105</field>
+        <field name="Datasheet">https://atta.szlcsc.com/upload/public/pdf/source/20170303/1488533271045.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="C" type="open_collector"/>
+        <pin num="4" name="E" type="open_emitter"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Ovo_Sensor_Proximity">
+      <uri>C:/Cadence/SPB_Data/Library/kicad/Ovo_Sensor_Proximity.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/EDGE_DET_LT">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="C" pintype="open_collector"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="E" pintype="open_emitter"/>
+    </net>
+    <net code="3" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+  </nets>
+</export>

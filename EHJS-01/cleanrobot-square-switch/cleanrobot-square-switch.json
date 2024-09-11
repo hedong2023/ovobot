@@ -1,0 +1,23 @@
+{
+    "refer": {
+        "functions": {
+            "switch-led": {
+                "comments": "按键led相关",
+                "refs": "D1,D2",
+                "nc": ""
+            }
+        }
+    },
+    "boards": [
+        {
+            "name": "EHDS01-Switch-不带灯",
+            "functions": []
+        },
+        {
+            "name": "EHDS01-Switch-带灯",
+            "functions": [
+                "switch-led"
+            ]
+        }
+    ]
+}

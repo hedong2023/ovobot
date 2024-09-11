@@ -1,0 +1,22 @@
+{
+    "refer": {
+        "functions": {
+            "2.4g-ncs": {
+                "comments": "2.4G不贴的元器件",
+                "refs": "C21,C18,AE1",
+                "nc": ""
+            },
+            "2.0mm-1x5P烧录口相关": {
+                "comments": "烧录不焊",
+                "refs": "J6",
+                "nc": ""
+            }
+        }
+    },
+    "boards": [
+        {
+            "name": "EHJS01-G4Q4L2A2-Main",
+            "functions": []
+        }
+    ]
+}

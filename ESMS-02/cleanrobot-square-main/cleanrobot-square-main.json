@@ -1,0 +1,61 @@
+{
+    "refer": {
+        "functions": {
+            "tuya-bt3l-fun": {
+                "comments": "tuya-bt3l涂鸦相关",
+                "refs": "U3",
+                "nc": ""
+            },
+            "xbtm03-fun": {
+                "comments": "xbtm03蓝牙相关",
+                "refs": "U5",
+                "nc": ""
+            },
+            "sw_xiaomcu-fun": {
+                "comments": "物理开关相关",
+                "refs": "R9",
+                "nc": ""
+            },
+            "mpu_6509-fun": {
+                "comments": "mpu-6509陀螺仪相关",
+                "refs": "U4,C13,C16,C18",
+                "nc": ""
+            },
+            "mpu_6887p-fun": {
+                "comments": "mpu-6887p陀螺仪相关",
+                "refs": "C14,C17,C19,C23,U8",
+                "nc": ""
+            }
+        }
+    },
+    "boards": [
+        {
+            "name": "ESMS02-G2Q0L0A0-Main-6887P",
+            "functions": [
+                "mpu_6887p-fun",
+                "xbtm03-fun"
+            ]
+        },
+        {
+            "name": "ESMS02-G2Q0L0A0-Main-6509",
+            "functions": [
+                "mpu_6509-fun",
+                "xbtm03-fun"
+            ]
+        },
+        {
+            "name": "ESMS02-G4Q0L0A0-Main-6887P",
+            "functions": [
+                "mpu_6887p-fun",
+                "tuya-bt3l-fun"
+            ]
+        },
+        {
+            "name": "ESMS02-G4Q0L0A0-Main-6509",
+            "functions": [
+                "mpu_6509-fun",
+                "tuya-bt3l-fun"
+            ]
+        }
+    ]
+}

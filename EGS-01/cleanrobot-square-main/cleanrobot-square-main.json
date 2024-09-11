@@ -1,0 +1,42 @@
+{
+    "refer": {
+        "functions": {
+            "sonic-spray-fun": {
+                "comments": "雾化片相关",
+                "refs": "C57,C58,C59,C60,C61,F1,L8,L9",
+                "nc": ""
+            },
+            "pump-spray-fun": {
+                "comments": "水泵喷水相关",
+                "refs": "R83,R84,D12,D13",
+                "nc": ""
+            },
+            "baro-fun": {
+                "comments": "外接气压相关",
+                "refs": "R87,R88",
+                "nc": ""
+            }
+        }
+    },
+    "boards": [
+        {
+            "name": "EGS01-R4T4L2A-Main 雾化片款",
+            "functions": [
+                "sonic-spray-fun"
+            ],
+            "modifies": [
+                {
+                    "ref": "R86",
+                    "value": "3.9K/1%"
+                }
+            ]
+        },
+        {
+            "name": "EGS01-R4Q4L2C-Main 水泵 气压款",
+            "functions": [
+                "pump-spray-fun",
+                "baro-fun"
+            ]
+        }
+    ]
+}

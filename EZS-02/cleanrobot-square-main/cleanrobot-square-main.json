@@ -1,0 +1,53 @@
+{
+    "refer": {
+        "functions": {
+            "en_chrg-fun": {
+                "comments": "电池充电开关相关",
+                "refs": "Q11,R9,R10,C17",
+                "nc": ""
+            },
+            "2spray-fun": {
+                "comments": "2路雾化喷水相关",
+                "refs": "F1,C52,C56,C66,L8,R22,R47,Q5,J8,C57,C67,L9,J9,R23,R48,Q6",
+                "nc": ""
+            },
+            "1spray-fun": {
+                "comments": "1路雾化喷水相关",
+                "refs": "F1,C52,C56,C66,L8,R22,R47,Q5,J8,J7",
+                "nc": ""
+            },
+            "water-pump-fun": {
+                "comments": "水泵喷水相关",
+                "refs": "R22,R47,Q5,D12,J8,C66,C56,R44,C52,F1",
+                "nc": ""
+            },
+            "vibrating-motor-fun": {
+                "comments": "振动马达相关",
+                "refs": "R23,R48,Q6,D13,R59,J9,C23,C28,U8,L10,D11,C50",
+                "nc": ""
+            }
+        }
+    },
+    "boards": [
+        {
+            "name": "EZS02-G4T0L0A0-雾化片双喷",
+            "functions": [
+                "2spray-fun"
+            ]
+        },
+        {
+            "name": "EZS02-G4S0L0A2-雾化喷水振动马达",
+            "functions": [
+                "1spray-fun",
+                "vibrating-motor-fun"
+            ]
+        },
+        {
+            "name": "EZS02-G4P0L0A2-水泵喷水振动马达",
+            "functions": [
+                "water-pump-fun",
+                "vibrating-motor-fun"
+            ]
+        }
+    ]
+}

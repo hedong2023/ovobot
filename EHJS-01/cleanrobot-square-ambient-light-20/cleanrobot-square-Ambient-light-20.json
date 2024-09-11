@@ -1,0 +1,23 @@
+{
+    "refer": {
+        "functions": {
+            "LED-1": {
+                "comments": "LED灯数量相关",
+                "refs": "D21",
+                "nc": ""
+            }
+        }
+    },
+    "boards": [
+        {
+            "name": "HJCS01-Ambient-light(LED+1)",
+            "functions": [
+                "LED-1"
+            ]
+        },
+        {
+            "name": "HJCS01-Ambient-light(LED-1)",
+            "functions": []
+        }
+    ]
+}

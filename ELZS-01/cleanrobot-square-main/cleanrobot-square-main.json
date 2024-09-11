@@ -1,0 +1,23 @@
+{
+    "refer": {
+        "functions": {
+            "voice-fun": {
+                "comments": "语音相关",
+                "refs": "R60,R61,R62,R63,C51,C53,C54,C59,C60,C61,U11,U16,J6",
+                "nc": ""
+            }
+        }
+    },
+    "boards": [
+        {
+            "name": "ELZS01-G4T0L0A2-Main",
+            "functions": []
+        },
+        {
+            "name": "ELZS01-G4T0L2A2-Main",
+            "functions": [
+                "voice-fun"
+            ]
+        }
+    ]
+}

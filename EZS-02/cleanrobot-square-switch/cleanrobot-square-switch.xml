@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Aowa_2023\CleanRobotSquarePCB\kicad\cleanrobot-square-switch\cleanrobot-square-switch.kicad_sch</source>
+    <date>2023/10/26 15:24:36</date>
+    <tool>Eeschema 7.0.2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>EZS-01-Switch</title>
+        <company>Timye</company>
+        <rev>V0.1</rev>
+        <date>2022-10-26</date>
+        <source>cleanrobot-square-switch.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>LED_Dual_Orange_Green_AKAK</value>
+      <footprint>Ovo_LED_SMD:LED_Dual_1.6x1.5mm</footprint>
+      <libsource lib="Ovo_Device" part="LED_Dual_Orange_Green_AKAK" description="Dual LED, cathodes on pins 2 and 4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <property name="ki_description" value="Dual LED, cathodes on pins 2 and 4"/>
+      <property name="ki_keywords" value="LED diode bicolor dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27f6d557-d80e-4fce-a567-77e5f162b5a1</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>LED_Dual_Orange_Green_AKAK</value>
+      <footprint>Ovo_LED_SMD:LED_Dual_1.6x1.5mm</footprint>
+      <libsource lib="Ovo_Device" part="LED_Dual_Orange_Green_AKAK" description="Dual LED, cathodes on pins 2 and 4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <property name="ki_description" value="Dual LED, cathodes on pins 2 and 4"/>
+      <property name="ki_keywords" value="LED diode bicolor dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7b1e432-4eb2-435a-8489-f29defbdc1d3</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>LED_Dual_Red_Blue_AKAK</value>
+      <footprint>Ovo_LED_SMD:LED_Dual_1.6x1.5mm</footprint>
+      <libsource lib="Ovo_Device" part="LED_Dual_Red_Blue_AKAK" description="Dual LED, cathodes on pins 2 and 4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <property name="ki_description" value="Dual LED, cathodes on pins 2 and 4"/>
+      <property name="ki_keywords" value="LED diode bicolor dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>154404be-a122-484b-ac1a-9077f49139e8</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>LED_Dual_Red_Blue_AKAK</value>
+      <footprint>Ovo_LED_SMD:LED_Dual_1.6x1.5mm</footprint>
+      <libsource lib="Ovo_Device" part="LED_Dual_Red_Blue_AKAK" description="Dual LED, cathodes on pins 2 and 4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <property name="ki_description" value="Dual LED, cathodes on pins 2 and 4"/>
+      <property name="ki_keywords" value="LED diode bicolor dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1243805-6c2c-47ce-a89d-dc209a3ffa96</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LED_Dual_Red_Blue_AKAK</value>
+      <footprint>Ovo_LED_SMD:LED_Dual_1.6x1.5mm</footprint>
+      <libsource lib="Ovo_Device" part="LED_Dual_Red_Blue_AKAK" description="Dual LED, cathodes on pins 2 and 4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <property name="ki_description" value="Dual LED, cathodes on pins 2 and 4"/>
+      <property name="ki_keywords" value="LED diode bicolor dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2eefeb99-d7cf-406a-ad1d-bf564a86bda9</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>LED_Dual_Red_Blue_AKAK</value>
+      <footprint>Ovo_LED_SMD:LED_Dual_1.6x1.5mm</footprint>
+      <libsource lib="Ovo_Device" part="LED_Dual_Red_Blue_AKAK" description="Dual LED, cathodes on pins 2 and 4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <property name="ki_description" value="Dual LED, cathodes on pins 2 and 4"/>
+      <property name="ki_keywords" value="LED diode bicolor dual"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22cd4b0a-b3df-4aa7-b86c-b177837d0542</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>ZH1.5MM/8ASMT</value>
+      <footprint>Ovo_Connector_JST:JST_ZH_B8B-ZR-SM4-TF_1x08-1MP_P1.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic_MountingPin" part="Conn_01x08_MountingPin" description="Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <property name="ki_description" value="Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>130605a4-8250-4d31-bfe5-38c90926d041</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>6x6x4.5mm/250gf</value>
+      <footprint>Ovo_Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H4.5mm</footprint>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <property name="ki_description" value="Push button switch, generic, two pins"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e140aee-f58c-4168-a84f-13f5a8637cbd</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>GND</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Probe" description="test point (alternative probe-style design)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative probe-style design)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12f76d4a-48e5-4d72-a6ad-bd0ed8ae60f7</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>START</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Probe" description="test point (alternative probe-style design)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative probe-style design)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b513f009-cba2-4a13-882c-2e2c868294c8</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>3.3V</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Probe" description="test point (alternative probe-style design)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative probe-style design)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4914a9f-e478-428d-8ee1-16a8a53b406a</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>LED_RED</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Probe" description="test point (alternative probe-style design)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative probe-style design)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8d07bf4-1f67-4b41-84d8-47378e0ecde1</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>LED_BLUE</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Probe" description="test point (alternative probe-style design)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative probe-style design)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35d3a706-b68c-4999-b67a-09962d76343d</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>CHG_ON_LED</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Probe" description="test point (alternative probe-style design)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative probe-style design)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b567e7e-8ed0-442b-95e1-b5470aaa74c2</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>CHG_DONE_LED</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Probe" description="test point (alternative probe-style design)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative probe-style design)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9608618b-88a8-430b-baab-1c91d334f52d</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>V_CHRG_0</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.0mm</footprint>
+      <libsource lib="Connector" part="TestPoint_Probe" description="test point (alternative probe-style design)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cleanrobot-square-switch.kicad_sch"/>
+      <property name="ki_description" value="test point (alternative probe-style design)"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>753594aa-71cf-499c-81b8-929ceb8f2386</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint_Probe">
+      <description>test point (alternative probe-style design)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_Probe</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic_MountingPin" part="Conn_01x08_MountingPin">
+      <description>Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_MountingPin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Ovo_Device" part="LED_Dual_Orange_Green_AKAK">
+      <description>Dual LED, cathodes on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D3</field>
+        <field name="Value">LED_Dual_Orange_Green_AKAK</field>
+        <field name="Footprint">Ovo_LED_SMD:LED_Dual_1.6x1.5mm</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="input"/>
+        <pin num="2" name="K1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="K2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Ovo_Device" part="LED_Dual_Red_Blue_AKAK">
+      <description>Dual LED, cathodes on pins 2 and 4</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D2</field>
+        <field name="Value">LED_Dual_Red_Blue_AKAK</field>
+        <field name="Footprint">Ovo_LED_SMD:LED_Dual_1.6x1.5mm</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="input"/>
+        <pin num="2" name="K1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="K2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic_MountingPin">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic_MountingPin.kicad_sym</uri>
+    </library>
+    <library logical="Ovo_Device">
+      <uri>D:\Aowa_2023\Library\kicad/Ovo_Device.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="D3" pin="1" pinfunction="A1" pintype="input"/>
+      <node ref="D3" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="D4" pin="1" pinfunction="A1" pintype="input"/>
+      <node ref="D4" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="D5" pin="1" pinfunction="A1" pintype="input"/>
+      <node ref="D5" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="D6" pin="1" pinfunction="A1" pintype="input"/>
+      <node ref="D6" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/CHG_DONE_LED">
+      <node ref="D1" pin="4" pinfunction="K2" pintype="input"/>
+      <node ref="D2" pin="4" pinfunction="K2" pintype="input"/>
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="/CHG_ON_LED">
+      <node ref="D1" pin="2" pinfunction="K1" pintype="input"/>
+      <node ref="D2" pin="2" pinfunction="K1" pintype="input"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/LED_BLUE">
+      <node ref="D3" pin="4" pinfunction="K2" pintype="input"/>
+      <node ref="D4" pin="4" pinfunction="K2" pintype="input"/>
+      <node ref="D5" pin="4" pinfunction="K2" pintype="input"/>
+      <node ref="D6" pin="4" pinfunction="K2" pintype="input"/>
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="/LED_RED">
+      <node ref="D3" pin="2" pinfunction="K1" pintype="input"/>
+      <node ref="D4" pin="2" pinfunction="K1" pintype="input"/>
+      <node ref="D5" pin="2" pinfunction="K1" pintype="input"/>
+      <node ref="D6" pin="2" pinfunction="K1" pintype="input"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/START">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/V_CHRG_O">
+      <node ref="D1" pin="1" pinfunction="A1" pintype="input"/>
+      <node ref="D1" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="D2" pin="1" pinfunction="A1" pintype="input"/>
+      <node ref="D2" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="MP" pinfunction="MountPin" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

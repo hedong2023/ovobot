@@ -1,0 +1,104 @@
+name: '🔥 Fabs Build'
+
+on:
+  push:
+    tags:
+      - '*-v*.*'
+    branches:
+      - 'main'
+    paths:
+      - '*-[0-9A-Za-z]+/**'
+
+  pull_request:
+    branches:
+      - 'main'
+    paths:
+      - '*-[0-9A-Za-z]+/**'
+
+jobs:
+  build-fabs:
+    if: ${{ ! startsWith(github.ref, 'refs/tags/') }}
+    runs-on: self-hosted
+    steps:
+    - name: 'Log github ref'
+      run: echo 'The name of your branch is ${{ github.ref }}'
+
+    - name: '⏳ Checkout repository'
+      uses: actions/checkout@v4
+
+    - name: '📜 Get list of changed files'
+      id: changed-files
+      uses: tj-actions/changed-files@v44
+      with:
+        files: |
+          *-[0-9]+/**/*.kicad_pcb
+          *-[0-9]+/**/*.kicad_sch
+
+    - name: '📜 Show list of changed files'
+      run: |
+        echo "${{ toJSON(steps.changed-files.outputs) }}"
+
+    - name: '🏗 Build fabs'
+      if: steps.changed-files.outputs.any_changed == 'true'
+      run: |
+        echo "${{ steps.changed-files.outputs.all_changed_files }}"
+        utils\gen-fabs-ci.bat ${{ steps.changed-files.outputs.all_changed_files }}
+
+  upload-fabs:
+    if: ${{ startsWith(github.ref, 'refs/tags/') }}
+    runs-on: self-hosted
+    steps:
+    - name: 'Log github ref'
+      run: echo 'The name of your branch is ${{ github.ref }}'
+
+    - name: '⏳ Checkout repository'
+      uses: actions/checkout@v4
+
+    - name: '🏗 Build fabs'
+      id: build-fabs
+      run: |
+        echo ${{ github.ref }}
+        utils\gen-fabs-ci-tag.bat gen ${{ github.ref_name }}
+
+    - name: '⬆ Upload artifacts'
+      if: github.event_name != 'pull_request'
+      uses: actions/upload-artifact@v4
+      with:
+        name: new-fabs
+        path: fabs\*\*\
+        if-no-files-found: error
+
+  stable-release:
+    if: ${{ startsWith(github.ref, 'refs/tags/') }}
+    needs: upload-fabs
+    runs-on: ubuntu-20.04
+    steps:
+    - name: '⏳ Checkout repository'
+      uses: actions/checkout@v4
+      with:
+        submodules: false
+
+    - name: '🤌 Download artifacts'
+      uses: actions/download-artifact@v4
+
+    - name: 'Display structure of downloaded files'
+      run: |
+        cd new-fabs
+        zip -r ${{github.ref_name}}-jlc.zip */*
+        zip -r ${{github.ref_name}}.zip */* -x */*/*-jlc*
+        cd ..
+
+    - name: '🔥 Create stable release'
+      uses: softprops/action-gh-release@v2
+      with:
+        draft: true
+        files: new-fabs/*.zip
+        body: ${{ github.event.head_commit.message }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: '🧹 Remove artifacts'
+      uses: geekyeggo/delete-artifact@v5
+      with:
+        name: new-fabs
+        failOnError: false

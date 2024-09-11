@@ -1,0 +1,3946 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0554ff2d-bfd2-42bf-926b-af26d737321f")
+	(paper "A4")
+	(title_block
+		(title "EHDS-01-LED")
+		(date "2022-11-16")
+		(rev "V0.1")
+	)
+	(lib_symbols
+		(symbol "Connector:TestPoint_Probe"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 1.651 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Probe"
+				(at 1.651 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point (alternative probe-style design)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Probe_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0.762) (xy 0 0) (xy 0.762 1.27) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.397 0.635) (xy 0.635 1.397) (xy 2.413 3.175) (xy 3.175 2.413) (xy 1.397 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_Probe_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Ovo_Device:LED_Dual_Red_Blue_AKAK"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D2"
+				(at -11.43 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_Dual_Red_Blue_AKAK"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Ovo_LED_SMD:LED_Dual_1.6x1.5mm"
+				(at 0.762 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.762 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual LED, cathodes on pins 2 and 4"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode bicolor dual"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Dual_Red_Blue_AKAK_0_0"
+				(text "B"
+					(at -2.286 -1.651 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "R"
+					(at -2.286 1.524 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LED_Dual_Red_Blue_AKAK_0_1"
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy 2.032 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy 2.032 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -3.81) (xy 1.27 -2.54) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 1.27) (xy 1.27 2.54) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 5.08) (xy 3.556 6.604) (xy 2.794 6.604) (xy 3.556 6.604) (xy 3.556 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 4.064) (xy 4.826 5.588) (xy 4.064 5.588) (xy 4.826 5.588) (xy 4.826 4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 4.572)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LED_Dual_Red_Blue_AKAK_1_1"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 3.048)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "K1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 3.048)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "K2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 20.32 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0251a9ea-508c-47c5-b2b5-6b117dd092df")
+	)
+	(junction
+		(at 20.32 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04095085-7384-4ba0-bfae-8523cd59ffc6")
+	)
+	(junction
+		(at 20.32 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0461ef93-b402-4f5c-82a4-a5b648d517d9")
+	)
+	(junction
+		(at 44.45 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a4922d8-6f05-4539-8691-a0f8923dadc8")
+	)
+	(junction
+		(at 88.646 60.706)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d0350fb-2e65-460a-bcd8-46d6d7a1946a")
+	)
+	(junction
+		(at 20.32 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13841a2b-f6a9-4911-893c-a247a4b6f8de")
+	)
+	(junction
+		(at 88.646 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19d0fb75-4776-45d6-97c7-9cf8066794ce")
+	)
+	(junction
+		(at 20.32 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bb8e950-85ac-438a-a36b-7ad01510e7b1")
+	)
+	(junction
+		(at 85.09 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c388db8-4f39-4190-a959-1b0c394489ce")
+	)
+	(junction
+		(at 20.32 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cf402d9-7ee6-45bb-a4c9-211c649f820d")
+	)
+	(junction
+		(at 60.96 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "228ea2bd-bb40-40e6-a398-0fe0ce605da9")
+	)
+	(junction
+		(at 20.32 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b83983a-6404-48f9-b976-79de2236411c")
+	)
+	(junction
+		(at 20.32 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f2f1e0a-2718-4fa5-84a9-2721fb4c458e")
+	)
+	(junction
+		(at 20.32 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3015770f-a814-4553-a8a9-926828ef2914")
+	)
+	(junction
+		(at 20.32 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "318c647a-6aa0-4760-a7b5-f5a9d78a13ef")
+	)
+	(junction
+		(at 20.32 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35a7c03a-1b5b-4ed5-855e-2fa2007472a4")
+	)
+	(junction
+		(at 20.32 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38e55134-1ff8-4b4e-9021-11de939fd310")
+	)
+	(junction
+		(at 48.26 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3954e764-9565-405d-aa4e-e6603402e988")
+	)
+	(junction
+		(at 20.32 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c3469ad-f056-41a2-aa04-1495316ab8ff")
+	)
+	(junction
+		(at 44.45 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "462ef096-71ae-4d65-86c4-2e44bfe47a0a")
+	)
+	(junction
+		(at 60.96 77.216)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "472c0594-ea66-4269-af0d-66901057ca9b")
+	)
+	(junction
+		(at 44.45 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4968115e-c95b-4099-ab02-6b22cfc3ed72")
+	)
+	(junction
+		(at 20.32 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5066d355-33c9-40f8-9f46-5142ad710ae1")
+	)
+	(junction
+		(at 88.646 108.712)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f7180b6-1f0a-473e-900c-1a134a7ace17")
+	)
+	(junction
+		(at 20.32 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6716fb77-c931-4c1c-8bdb-cb3580205cd3")
+	)
+	(junction
+		(at 44.45 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f2b47db-eb0d-42e9-8ea4-f9dc22d7b9d6")
+	)
+	(junction
+		(at 85.09 82.296)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "777037d1-2669-411b-88a2-582c80844d26")
+	)
+	(junction
+		(at 48.26 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b0cde4f-be6a-4105-9248-e1ad22de2e3f")
+	)
+	(junction
+		(at 48.26 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b7d4aaf-978f-4988-b5cf-7548a1963cd3")
+	)
+	(junction
+		(at 60.96 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a62c417-3fc7-46d9-9d84-d6ffd75fb612")
+	)
+	(junction
+		(at 60.96 82.296)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e2a95fa-bdc1-40ca-9ab5-aed996627430")
+	)
+	(junction
+		(at 48.26 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92d088f5-ae23-4dd4-b1dc-d2032cda5adb")
+	)
+	(junction
+		(at 60.96 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "941bfe4e-b3ff-4749-8a28-9fea1cf9ad70")
+	)
+	(junction
+		(at 20.32 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95075439-fb69-429e-a352-f49cfc0ebd7b")
+	)
+	(junction
+		(at 88.646 77.216)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a0c7ccb-ef2f-48d4-aa06-329a15d3b154")
+	)
+	(junction
+		(at 48.26 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b430762-4e3f-4f23-afb2-a4a46af9d4c3")
+	)
+	(junction
+		(at 20.32 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a41df27d-c388-4d60-9877-8595674972d0")
+	)
+	(junction
+		(at 44.45 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6287574-e33d-4446-95b2-235f0883b726")
+	)
+	(junction
+		(at 60.96 92.456)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a920ac0e-c9c2-4148-90af-427820df64e5")
+	)
+	(junction
+		(at 44.45 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6bcfe15-3e2a-44c8-a84e-26def0165014")
+	)
+	(junction
+		(at 60.96 108.712)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b77fe01a-0a60-4c1b-8780-c9052b7b05da")
+	)
+	(junction
+		(at 60.96 60.706)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bee19090-8e7f-4778-8d3d-e17c362d4d1c")
+	)
+	(junction
+		(at 44.45 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf6c73db-628e-4981-ac6c-3666b9d265ff")
+	)
+	(junction
+		(at 88.646 92.456)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0d8c5e0-db6b-4ecf-85bd-092ca589284d")
+	)
+	(junction
+		(at 48.26 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd5c4fd1-dcdf-441d-896c-6c6d955631ef")
+	)
+	(junction
+		(at 85.09 65.786)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1f3c021-252e-42ec-b050-168947d93131")
+	)
+	(junction
+		(at 85.09 97.536)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbee2aa3-cd6e-468d-ad31-5f55fcabdfaf")
+	)
+	(junction
+		(at 60.96 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbfb9dd4-3210-4cbd-a4ca-b99f59e0f6e3")
+	)
+	(junction
+		(at 48.26 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc3b0687-248a-47f0-90b5-f8a62dacba2a")
+	)
+	(junction
+		(at 20.32 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd99afd8-f4c9-4179-b048-9607a43baffc")
+	)
+	(junction
+		(at 60.96 65.786)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e00f6a53-7847-45d3-9225-529338240010")
+	)
+	(junction
+		(at 44.45 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e740d0bd-f326-47fe-aabd-6d624806b71e")
+	)
+	(junction
+		(at 85.09 113.792)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8017cff-b724-4106-9c93-c544feb5824d")
+	)
+	(junction
+		(at 60.96 113.792)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec442850-9fe8-44b9-90c7-299020178f31")
+	)
+	(junction
+		(at 20.32 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f24e3452-b8db-4577-8d57-9abc1c6476a6")
+	)
+	(junction
+		(at 144.78 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f95bd3a8-14a4-4d16-b591-671b1fd9c77a")
+	)
+	(junction
+		(at 48.26 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc4450ee-589c-4673-92f6-52dd02e8dd25")
+	)
+	(junction
+		(at 60.96 97.536)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcf87790-7b8c-4676-94de-3afd90bce680")
+	)
+	(junction
+		(at 60.96 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff13bafe-f157-49ea-8022-ff1d4b2086db")
+	)
+	(wire
+		(pts
+			(xy 20.32 120.65) (xy 20.32 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0214e26c-d547-4889-989b-9dd13e96f718")
+	)
+	(wire
+		(pts
+			(xy 35.56 135.89) (xy 48.26 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02ac13d9-3e57-4395-9d1d-58b92da79328")
+	)
+	(wire
+		(pts
+			(xy 85.09 49.53) (xy 85.09 65.786)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ba8eb8-d8ac-4477-ae7d-042d2e807733")
+	)
+	(wire
+		(pts
+			(xy 85.09 65.786) (xy 85.09 82.296)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049efe59-17f6-48b7-ad05-738c25027840")
+	)
+	(wire
+		(pts
+			(xy 35.56 125.73) (xy 44.45 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0571e622-df25-4700-a6a1-fcedf3b8226a")
+	)
+	(wire
+		(pts
+			(xy 35.56 156.21) (xy 44.45 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06dd1058-4426-4e6d-9fe6-9b50832997d9")
+	)
+	(wire
+		(pts
+			(xy 88.646 92.456) (xy 88.646 77.216)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e09c25e-d644-4704-ab2b-de650f14717c")
+	)
+	(wire
+		(pts
+			(xy 20.32 151.13) (xy 20.32 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1246218b-d1e8-4cc6-8818-127bd0ed52d2")
+	)
+	(wire
+		(pts
+			(xy 20.32 25.4) (xy 20.32 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "183d965c-9e71-4f9d-84ee-2da5c2bd4570")
+	)
+	(wire
+		(pts
+			(xy 76.2 92.456) (xy 88.646 92.456)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "194718d0-b5fc-496f-9558-6767bf93f96d")
+	)
+	(wire
+		(pts
+			(xy 35.56 120.65) (xy 48.26 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5e59b1-9db7-42e7-b96b-6acdae1c52ba")
+	)
+	(wire
+		(pts
+			(xy 35.56 64.77) (xy 44.45 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21e0cbda-d2d7-4319-8f64-a651c41b2ea6")
+	)
+	(wire
+		(pts
+			(xy 48.26 44.45) (xy 48.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "286fb605-1745-445f-ac18-c6a01b710d4d")
+	)
+	(wire
+		(pts
+			(xy 44.45 171.45) (xy 44.45 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cb1edc5-0778-416e-b2f6-c3b7c3b76b42")
+	)
+	(wire
+		(pts
+			(xy 85.09 49.53) (xy 85.09 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d0f56ee-a7f3-408b-ae30-f930cf77f044")
+	)
+	(wire
+		(pts
+			(xy 88.646 44.45) (xy 88.9 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e5bd064-a975-45ee-b7e0-69fdc6a6cd47")
+	)
+	(wire
+		(pts
+			(xy 144.78 81.28) (xy 149.86 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e8e2d94-2439-4f88-9294-f11577eba297")
+	)
+	(wire
+		(pts
+			(xy 60.96 65.786) (xy 60.96 77.216)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f9fbf67-45b5-4b49-8a0c-5839db860885")
+	)
+	(wire
+		(pts
+			(xy 20.32 44.45) (xy 20.32 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31714e6f-e43b-4fb4-9169-85ad3f7d35e9")
+	)
+	(wire
+		(pts
+			(xy 35.56 171.45) (xy 44.45 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37dc7e87-8c27-4996-86d9-6d40c53f38ea")
+	)
+	(wire
+		(pts
+			(xy 85.09 97.536) (xy 85.09 113.792)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a7219e4-1ea3-4812-9a89-bb061a88351b")
+	)
+	(wire
+		(pts
+			(xy 88.646 108.712) (xy 88.646 92.456)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a84edea-4a23-499f-b22f-c798838ad271")
+	)
+	(wire
+		(pts
+			(xy 76.2 125.73) (xy 88.646 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3acb9284-d32b-4cd5-94a6-1007af23f27a")
+	)
+	(wire
+		(pts
+			(xy 44.45 80.01) (xy 44.45 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba372eb-37f8-4e00-805a-38e18cdbccc8")
+	)
+	(wire
+		(pts
+			(xy 85.09 34.29) (xy 76.2 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4181c9bd-b8ab-4ee5-bc80-47a0fe578295")
+	)
+	(wire
+		(pts
+			(xy 60.96 92.456) (xy 60.96 97.536)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44790000-eba2-4b5e-a615-4ce2b89907c0")
+	)
+	(wire
+		(pts
+			(xy 20.32 140.97) (xy 20.32 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4508afcc-6d3b-441d-bef2-f2f37f260dec")
+	)
+	(wire
+		(pts
+			(xy 60.96 113.792) (xy 60.96 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47092c22-25a7-4568-8d8a-17f6065605d4")
+	)
+	(wire
+		(pts
+			(xy 20.32 166.37) (xy 20.32 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b908db9-cf22-4d8b-96f1-5b2c028a7fc5")
+	)
+	(wire
+		(pts
+			(xy 60.96 34.29) (xy 60.96 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ec85156-93d0-41ab-95ac-bc355dae6714")
+	)
+	(wire
+		(pts
+			(xy 44.45 156.21) (xy 44.45 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50249803-b63d-4e5e-8c86-4d506c90d673")
+	)
+	(wire
+		(pts
+			(xy 60.96 97.536) (xy 60.96 108.712)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50bb5b4f-d6fb-4df7-ae2c-1182fa7026ce")
+	)
+	(wire
+		(pts
+			(xy 48.26 151.13) (xy 48.26 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52610c73-a374-4fa1-b1d1-855d9661ae63")
+	)
+	(wire
+		(pts
+			(xy 20.32 64.77) (xy 20.32 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52827f84-96e1-4fb4-90e3-d09f35298e2e")
+	)
+	(wire
+		(pts
+			(xy 20.32 49.53) (xy 20.32 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545c92a0-d679-4557-bb5b-d0ca3025890e")
+	)
+	(wire
+		(pts
+			(xy 60.96 49.53) (xy 60.96 60.706)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "566b8fa8-e741-42e5-8512-485fb8835641")
+	)
+	(wire
+		(pts
+			(xy 76.2 108.712) (xy 88.646 108.712)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ababf6-0fa5-4292-aba8-0af76eb6e913")
+	)
+	(wire
+		(pts
+			(xy 48.26 90.17) (xy 48.26 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59cac630-a55b-4160-abf8-42d783d03dcf")
+	)
+	(wire
+		(pts
+			(xy 85.09 130.81) (xy 76.2 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c419e30-5bf2-494f-bbbe-7105f271b7ba")
+	)
+	(wire
+		(pts
+			(xy 35.56 59.69) (xy 48.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dafa770-0560-416b-8f7d-daf383e06ab2")
+	)
+	(wire
+		(pts
+			(xy 20.32 74.93) (xy 20.32 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e8a3ff6-40d7-4384-85b0-a75f36b2ab71")
+	)
+	(wire
+		(pts
+			(xy 44.45 110.49) (xy 44.45 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f9ce985-9682-480c-8d89-6200650b10b1")
+	)
+	(wire
+		(pts
+			(xy 44.45 140.97) (xy 44.45 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "620feed8-7c6b-4ed1-8939-5c817e92e9d1")
+	)
+	(wire
+		(pts
+			(xy 60.96 25.4) (xy 60.96 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e5df4f1-ee48-41fd-b6da-aa92c6204fdb")
+	)
+	(wire
+		(pts
+			(xy 44.45 49.53) (xy 44.45 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ef29911-5727-41be-8f83-152c8bcdb19a")
+	)
+	(wire
+		(pts
+			(xy 85.09 82.296) (xy 85.09 97.536)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f22fb5e-e1fe-43b9-80b9-8122a874fda4")
+	)
+	(wire
+		(pts
+			(xy 35.56 151.13) (xy 48.26 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "701a8b8d-02a9-47f9-aeee-c9aab996ceac")
+	)
+	(wire
+		(pts
+			(xy 20.32 90.17) (xy 20.32 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "730be48f-5fd5-40f1-b02c-4cf0ee5643bb")
+	)
+	(wire
+		(pts
+			(xy 20.32 156.21) (xy 20.32 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a61927a-a6d7-48a3-8b66-6bae6ecb7a57")
+	)
+	(wire
+		(pts
+			(xy 35.56 95.25) (xy 44.45 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7afb3491-56dc-4d95-8463-2b3569037da8")
+	)
+	(wire
+		(pts
+			(xy 85.09 65.786) (xy 76.2 65.786)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e2dd462-d74f-4c6e-aaed-348b3d157c33")
+	)
+	(wire
+		(pts
+			(xy 60.96 125.73) (xy 60.96 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "827b763f-33ea-4d5f-ba02-534bb1974cb5")
+	)
+	(wire
+		(pts
+			(xy 85.09 82.296) (xy 76.2 82.296)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a421a30-0f06-49ca-9b57-b9479e85c3e1")
+	)
+	(wire
+		(pts
+			(xy 144.78 78.74) (xy 149.86 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90b8c586-49c6-49f3-951a-5220c3dd1bc6")
+	)
+	(wire
+		(pts
+			(xy 20.32 80.01) (xy 20.32 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95a26ef3-0f34-46e7-9313-8583dec363eb")
+	)
+	(wire
+		(pts
+			(xy 44.45 125.73) (xy 44.45 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "967ca102-47b7-401e-8f66-c04011f15430")
+	)
+	(wire
+		(pts
+			(xy 88.646 125.73) (xy 88.646 108.712)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9847ed75-ae9f-4273-883e-fe53de86a262")
+	)
+	(wire
+		(pts
+			(xy 88.9 29.21) (xy 88.9 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99384aea-502a-4585-bdb5-23eef5c58de0")
+	)
+	(wire
+		(pts
+			(xy 48.26 74.93) (xy 48.26 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cb37435-afb6-4518-a580-e0a3d9b74d44")
+	)
+	(wire
+		(pts
+			(xy 48.26 105.41) (xy 48.26 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d0cd4bb-21cd-465e-8a73-fae667fe57cd")
+	)
+	(wire
+		(pts
+			(xy 85.09 113.792) (xy 76.2 113.792)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb6785d-d415-4187-8b40-122a9edf7f56")
+	)
+	(wire
+		(pts
+			(xy 35.56 29.21) (xy 48.26 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fd114f2-843c-4ccf-b8b4-017a1d9ae297")
+	)
+	(wire
+		(pts
+			(xy 60.96 60.706) (xy 60.96 65.786)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a35b9289-122d-4882-8ea3-3d4b3b13d802")
+	)
+	(wire
+		(pts
+			(xy 76.2 77.216) (xy 88.646 77.216)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a361da29-604c-44b1-8fff-7b63c1d147ab")
+	)
+	(wire
+		(pts
+			(xy 88.646 44.45) (xy 88.646 60.706)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7d71567-8213-4fdc-971d-e2ea95eedf97")
+	)
+	(wire
+		(pts
+			(xy 35.56 140.97) (xy 44.45 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a805941b-8348-4076-9805-cf5f63128093")
+	)
+	(wire
+		(pts
+			(xy 85.09 97.536) (xy 76.2 97.536)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abffecd0-5589-4070-90ce-a4bee40cc994")
+	)
+	(wire
+		(pts
+			(xy 60.96 29.21) (xy 60.96 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad3ad69e-f0bd-467e-8ea1-164f0478f505")
+	)
+	(wire
+		(pts
+			(xy 48.26 59.69) (xy 48.26 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2670ff7-f70f-4952-a074-019b3586fa65")
+	)
+	(wire
+		(pts
+			(xy 76.2 49.53) (xy 85.09 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3cc3348-c1fe-458c-81ad-2f5d41af7836")
+	)
+	(wire
+		(pts
+			(xy 35.56 90.17) (xy 48.26 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8266e51-50cc-4f9b-b058-7072b203a2a7")
+	)
+	(wire
+		(pts
+			(xy 60.96 77.216) (xy 60.96 82.296)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb25d84c-0f3d-452e-b0f2-9ea72d503e02")
+	)
+	(wire
+		(pts
+			(xy 20.32 29.21) (xy 20.32 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb5f78c-7823-4858-a3db-32bef6989bd6")
+	)
+	(wire
+		(pts
+			(xy 44.45 34.29) (xy 35.56 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc498180-a70a-4835-a1e6-a308bf6a86ec")
+	)
+	(wire
+		(pts
+			(xy 20.32 105.41) (xy 20.32 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc82008f-fc5d-45f4-a75c-eb295e0a5e42")
+	)
+	(wire
+		(pts
+			(xy 20.32 59.69) (xy 20.32 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdcaa9a3-068c-4e87-868b-91c9dcc69bfa")
+	)
+	(wire
+		(pts
+			(xy 35.56 49.53) (xy 44.45 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c16681ac-bbe0-4157-a51c-db86df1c601d")
+	)
+	(wire
+		(pts
+			(xy 48.26 29.21) (xy 48.26 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c195b075-91d3-4c6e-bc6e-36ed0f58a345")
+	)
+	(wire
+		(pts
+			(xy 144.78 76.2) (xy 149.86 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c313857e-0284-49d4-8a8c-f6b13c977d6b")
+	)
+	(wire
+		(pts
+			(xy 76.2 29.21) (xy 88.9 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c390efdc-6a91-4b5d-93c3-52127209dae8")
+	)
+	(wire
+		(pts
+			(xy 88.646 77.216) (xy 88.646 60.706)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c59a754c-1797-4e4b-8af8-f2e9f10667d8")
+	)
+	(wire
+		(pts
+			(xy 85.09 113.792) (xy 85.09 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c93fd2b2-159a-4b85-bd46-456f2f60d66c")
+	)
+	(wire
+		(pts
+			(xy 20.32 110.49) (xy 20.32 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca605c55-af7a-46a8-b196-606675cf5ac7")
+	)
+	(wire
+		(pts
+			(xy 76.2 60.706) (xy 88.646 60.706)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf10c1a-3e30-4369-a068-249cd51e1e78")
+	)
+	(wire
+		(pts
+			(xy 76.2 44.45) (xy 88.646 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf4a3a69-4e97-49ca-8c06-1ef87710fe14")
+	)
+	(wire
+		(pts
+			(xy 60.96 44.45) (xy 60.96 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f012cd-65d6-4234-9e55-28f16054fcc4")
+	)
+	(wire
+		(pts
+			(xy 44.45 64.77) (xy 44.45 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d2fd64-154f-4bc3-8e99-765d3bbed731")
+	)
+	(wire
+		(pts
+			(xy 44.45 95.25) (xy 44.45 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e06818e7-3cb8-4517-ba81-57fb35cf92c7")
+	)
+	(wire
+		(pts
+			(xy 35.56 105.41) (xy 48.26 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4c17e67-c6a6-422d-aa31-3de086ef290a")
+	)
+	(wire
+		(pts
+			(xy 35.56 80.01) (xy 44.45 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e7453e-256f-4d34-8fe2-e7e13d198094")
+	)
+	(wire
+		(pts
+			(xy 60.96 82.296) (xy 60.96 92.456)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8f410c0-0beb-4f1d-95d6-845447f84e3d")
+	)
+	(wire
+		(pts
+			(xy 35.56 44.45) (xy 48.26 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec536ed0-f790-40ea-b83e-d4e7716c41bf")
+	)
+	(wire
+		(pts
+			(xy 20.32 135.89) (xy 20.32 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ece88709-2e86-49f7-a927-e40eb9016cdb")
+	)
+	(wire
+		(pts
+			(xy 35.56 110.49) (xy 44.45 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09592fb-97f7-41d3-beae-00573a1986b7")
+	)
+	(wire
+		(pts
+			(xy 48.26 135.89) (xy 48.26 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f14ef6bd-1662-4caf-bb90-5192867f32bf")
+	)
+	(wire
+		(pts
+			(xy 20.32 34.29) (xy 20.32 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1dda3ba-f729-4bad-ba4a-effb88b88bc9")
+	)
+	(wire
+		(pts
+			(xy 60.96 108.712) (xy 60.96 113.792)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4cdf82a-58af-4e88-b904-651be8271b00")
+	)
+	(wire
+		(pts
+			(xy 35.56 74.93) (xy 48.26 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5eebe4e-3b66-47a6-9ed2-f879207156a8")
+	)
+	(wire
+		(pts
+			(xy 48.26 120.65) (xy 48.26 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c3c567-d8c1-4731-a097-9eb1211f244f")
+	)
+	(wire
+		(pts
+			(xy 48.26 166.37) (xy 35.56 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ee1871-48f5-4657-996d-6856f310a926")
+	)
+	(wire
+		(pts
+			(xy 20.32 125.73) (xy 20.32 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb3a274c-0e42-4106-83dc-4202c5c1b437")
+	)
+	(wire
+		(pts
+			(xy 20.32 95.25) (xy 20.32 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb59cdbd-5fdd-4a0d-ae1a-c27b0c60c3c1")
+	)
+	(label "BLUE"
+		(at 44.45 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "14123551-b0d3-4438-ae96-824ff1caffa0")
+	)
+	(label "BLUE"
+		(at 144.78 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36ccd63b-5f02-49fa-9d05-4036200ffe10")
+	)
+	(label "RED"
+		(at 144.78 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "85946fa3-32bd-4cc6-a124-dc796ec92341")
+	)
+	(label "RED"
+		(at 88.9 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f52278a-df61-430b-88cd-e0d13198e024")
+	)
+	(label "BLUE"
+		(at 85.09 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8f76dcfc-3d26-42a6-9c81-e76ad860ba59")
+	)
+	(label "RED"
+		(at 48.26 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bee20247-2824-4450-8749-47fcea325e28")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 20.32 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00d38e99-9fba-403e-a13a-ab648f9d2a4a")
+		(property "Reference" "#PWR011"
+			(at 20.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 20.32 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 20.32 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "869d05a7-d7d9-4f76-b9ad-179c4f9171f1")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+			(project "cleanrobot-led"
+				(path "/b1eec9cf-e741-4381-9e31-8c55c1656c87"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ovo_Device:LED_Dual_Red_Blue_AKAK")
+		(at 68.58 79.756 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "030d0bc5-994b-4ffe-b6c6-6c524f7bc951")
+		(property "Reference" "D14"
+			(at 68.453 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Dual_Red_Blue_AKAK"
+			(at 77.47 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Ovo_LED_SMD:LED_Dual_1.6x1.5mm"
+			(at 69.342 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.342 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 79.756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72dd3271-de83-444e-9f9b-229765c14bbd")
+		)
+		(pin "2"
+			(uuid "81432486-705c-46a9-8fb5-49003706e964")
+		)
+		(pin "3"
+			(uuid "67721591-81fe-459f-9317-7311bc263ef1")
+		)
+		(pin "4"
+			(uuid "2f37edd6-fa61-4738-9518-f847ec028002")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ovo_Device:LED_Dual_Red_Blue_AKAK")
+		(at 27.94 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b811cd5-2c54-4a1b-af7f-6225913322a4")
+		(property "Reference" "D6"
+			(at 27.813 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Dual_Red_Blue_AKAK"
+			(at 36.83 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Ovo_LED_SMD:LED_Dual_1.6x1.5mm"
+			(at 28.702 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 28.702 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68cd925c-011a-4ee6-a690-47cd5b6f8425")
+		)
+		(pin "2"
+			(uuid "8b53fc1b-12f3-4697-905d-ac776bb7b936")
+		)
+		(pin "3"
+			(uuid "bdde0641-3c82-46df-b4b4-b458986908fe")
+		)
+		(pin "4"
+			(uuid "a4e59a62-96cd-4f75-b104-a50538c987fd")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+			(project "cleanrobot-square-baro"
+				(path "/ede4fe08-9f98-400f-94ec-0296c9debddf"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ovo_Device:LED_Dual_Red_Blue_AKAK")
+		(at 68.58 111.252 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c8984bb-44ff-4b50-85e2-675c0e545c07")
+		(property "Reference" "D16"
+			(at 68.453 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Dual_Red_Blue_AKAK"
+			(at 77.47 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Ovo_LED_SMD:LED_Dual_1.6x1.5mm"
+			(at 69.342 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.342 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd439ee4-87a4-425e-b937-34038d6afced")
+		)
+		(pin "2"
+			(uuid "735bfea5-9314-42dd-9642-ec3c579a36b9")
+		)
+		(pin "3"
+			(uuid "2fb38e20-db37-4d52-8e04-abb5df0d1afe")
+		)
+		(pin "4"
+			(uuid "63a03cf3-c8c9-433e-b09f-58a5c08a2784")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ovo_Device:LED_Dual_Red_Blue_AKAK")
+		(at 27.94 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2283a027-9e43-4e6d-8291-4227fba34b24")
+		(property "Reference" "D5"
+			(at 27.813 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Dual_Red_Blue_AKAK"
+			(at 36.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Ovo_LED_SMD:LED_Dual_1.6x1.5mm"
+			(at 28.702 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 28.702 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75f08b7e-dae1-43f6-95d7-627475c62223")
+		)
+		(pin "2"
+			(uuid "dd276691-d529-485d-a6d8-a923c81f5f91")
+		)
+		(pin "3"
+			(uuid "15784e9f-457b-4b01-9ff9-8b6004dd0285")
+		)
+		(pin "4"
+			(uuid "d6e9fbca-aabb-47a0-8d5e-fb336f4bb990")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+			(project "cleanrobot-square-baro"
+				(path "/ede4fe08-9f98-400f-94ec-0296c9debddf"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ovo_Device:LED_Dual_Red_Blue_AKAK")
+		(at 27.94 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23ae1a33-fe48-42ca-9c38-36b830ed8c33")
+		(property "Reference" "D4"
+			(at 27.813 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Dual_Red_Blue_AKAK"
+			(at 36.83 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Ovo_LED_SMD:LED_Dual_1.6x1.5mm"
+			(at 28.702 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 28.702 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65ce1910-c586-4bcf-ad5d-cd1de7058191")
+		)
+		(pin "2"
+			(uuid "28dfc906-c32d-4d19-946a-d06c645e1341")
+		)
+		(pin "3"
+			(uuid "31c24d2f-ea54-4924-9b96-831d937c021d")
+		)
+		(pin "4"
+			(uuid "200631dd-186d-4c8b-93cb-b101c42cdc70")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+			(project "cleanrobot-square-baro"
+				(path "/ede4fe08-9f98-400f-94ec-0296c9debddf"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 144.78 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37aac2fd-9c2c-4346-ba85-2716c802b7f9")
+		(property "Reference" "TP3"
+			(at 139.7 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 135.89 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c17f2ce8-0437-4c0f-92ba-8996716198ed")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ovo_Device:LED_Dual_Red_Blue_AKAK")
+		(at 68.58 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d7d742e-47ae-44be-ac49-0bdf2fa636bb")
+		(property "Reference" "D11"
+			(at 68.453 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Dual_Red_Blue_AKAK"
+			(at 77.47 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Ovo_LED_SMD:LED_Dual_1.6x1.5mm"
+			(at 69.342 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.342 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24788b4a-9b44-4596-b902-aeb8236b3cb2")
+		)
+		(pin "2"
+			(uuid "6bce26fa-8b72-47d6-aa38-6de467fd0b0b")
+		)
+		(pin "3"
+			(uuid "b0b5f793-5d58-476e-971c-a89e54b60120")
+		)
+		(pin "4"
+			(uuid "a31acd44-aaa9-4ad4-acc2-d219a218937e")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+			(project "cleanrobot-square-baro"
+				(path "/ede4fe08-9f98-400f-94ec-0296c9debddf"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ovo_Device:LED_Dual_Red_Blue_AKAK")
+		(at 68.58 94.996 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f3b8bc2-68ea-43b4-a5a3-5c7b25489246")
+		(property "Reference" "D15"
+			(at 68.453 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Dual_Red_Blue_AKAK"
+			(at 77.47 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Ovo_LED_SMD:LED_Dual_1.6x1.5mm"
+			(at 69.342 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.342 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "970b9915-e6b5-44ad-9c9a-9f2e51b3c196")
+		)
+		(pin "2"
+			(uuid "3bd27096-1927-4726-8190-f424076d479b")
+		)
+		(pin "3"
+			(uuid "4dfd4222-6e72-4de9-ab68-ac500ae21b8c")
+		)
+		(pin "4"
+			(uuid "e0b66767-869b-402d-abb6-3564073cca64")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ovo_Device:LED_Dual_Red_Blue_AKAK")
+		(at 27.94 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "658b00fd-5c12-4ebc-996a-5a41efcec892")
+		(property "Reference" "D1"
+			(at 27.813 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Dual_Red_Blue_AKAK"
+			(at 36.83 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Ovo_LED_SMD:LED_Dual_1.6x1.5mm"
+			(at 28.702 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 28.702 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "520ac468-109a-4604-be0d-2735d9781811")
+		)
+		(pin "2"
+			(uuid "942cc9b0-b374-4271-923b-0d284c31b46e")
+		)
+		(pin "3"
+			(uuid "a672e837-cf99-4aac-8e75-4ac2375c9a90")
+		)
+		(pin "4"
+			(uuid "2d5c4b29-f432-4549-8219-2c0838007e7e")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "cleanrobot-square-baro"
+				(path "/ede4fe08-9f98-400f-94ec-0296c9debddf"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ovo_Device:LED_Dual_Red_Blue_AKAK")
+		(at 27.94 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65e9dd6c-02c3-454f-b397-12ac023f9c26")
+		(property "Reference" "D2"
+			(at 27.813 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Dual_Red_Blue_AKAK"
+			(at 36.83 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Ovo_LED_SMD:LED_Dual_1.6x1.5mm"
+			(at 28.702 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 28.702 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca08d8b3-fcf8-4e62-89fb-bb472e9a1b56")
+		)
+		(pin "2"
+			(uuid "87f0247b-fd91-42fa-bc0d-36ec597ddab2")
+		)
+		(pin "3"
+			(uuid "ab2510e4-00b1-4ec9-8f8f-46078779b099")
+		)
+		(pin "4"
+			(uuid "4cea7c3a-e6d3-4471-9c9a-e6a4ab739841")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+			(project "cleanrobot-square-baro"
+				(path "/ede4fe08-9f98-400f-94ec-0296c9debddf"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ovo_Device:LED_Dual_Red_Blue_AKAK")
+		(at 27.94 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6aa8b491-825f-4751-a2a1-e7d52b558f66")
+		(property "Reference" "D7"
+			(at 27.813 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Dual_Red_Blue_AKAK"
+			(at 36.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Ovo_LED_SMD:LED_Dual_1.6x1.5mm"
+			(at 28.702 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 28.702 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b1fb6c7-ea10-4e6c-bfc5-1ffc2e7c65da")
+		)
+		(pin "2"
+			(uuid "3609b879-2427-43c7-85c4-61dcc138ec28")
+		)
+		(pin "3"
+			(uuid "efccb865-5c3e-4bd8-867e-c50b6962bb8a")
+		)
+		(pin "4"
+			(uuid "2f7a3a57-5ccf-4f4f-a2cf-259a3dcff96e")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+			(project "cleanrobot-square-baro"
+				(path "/ede4fe08-9f98-400f-94ec-0296c9debddf"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 144.78 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7121eb59-0058-4ca2-a422-01b3bc424a02")
+		(property "Reference" "TP1"
+			(at 139.7 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BLUE"
+			(at 135.89 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 144.78 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db640692-c883-4676-885f-056ad183fe33")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Probe")
+		(at 144.78 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7662c3ac-4ba3-45d9-b8ac-450e24eed95a")
+		(property "Reference" "TP2"
+			(at 139.7 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RED"
+			(at 135.89 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 144.78 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8752c0e6-027f-4b05-8f9a-1742559bfb8e")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ovo_Device:LED_Dual_Red_Blue_AKAK")
+		(at 68.58 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "974a6a36-61e3-431c-8a64-b3604ac6ecfb")
+		(property "Reference" "D17"
+			(at 68.453 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Dual_Red_Blue_AKAK"
+			(at 77.47 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Ovo_LED_SMD:LED_Dual_1.6x1.5mm"
+			(at 69.342 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.342 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f62bffc-9068-402e-9e3e-b9c235626cb9")
+		)
+		(pin "2"
+			(uuid "b8e91d6f-157b-4d98-86d1-af4263f55508")
+		)
+		(pin "3"
+			(uuid "de25a9de-9ee8-4641-adfb-e58754e5b179")
+		)
+		(pin "4"
+			(uuid "373d15e9-d002-410c-b294-3814b81b78cc")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ovo_Device:LED_Dual_Red_Blue_AKAK")
+		(at 68.58 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad2bb165-81d8-43c8-82b8-9fee04fb27b8")
+		(property "Reference" "D12"
+			(at 68.453 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Dual_Red_Blue_AKAK"
+			(at 77.47 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Ovo_LED_SMD:LED_Dual_1.6x1.5mm"
+			(at 69.342 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.342 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3e8d83b-9c91-44cf-8d79-d46d2e90d668")
+		)
+		(pin "2"
+			(uuid "8856f5e4-2795-41cb-aba1-0796e57bab06")
+		)
+		(pin "3"
+			(uuid "9160012f-c76c-4f1f-8081-4b60b296e35f")
+		)
+		(pin "4"
+			(uuid "3cbe919e-93b7-43fa-bd63-ddbc1325b67f")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+			(project "cleanrobot-square-baro"
+				(path "/ede4fe08-9f98-400f-94ec-0296c9debddf"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 144.78 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0ffa5df-e163-418c-95c5-56696879c6d9")
+		(property "Reference" "#PWR02"
+			(at 144.78 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0d7b8a3-7e0b-4208-838e-e6b457724d90")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "cleanrobot-led"
+				(path "/b1eec9cf-e741-4381-9e31-8c55c1656c87"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 154.94 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "bbaa9a5f-80fd-4261-bc40-bcb0e255c500")
+		(property "Reference" "J1"
+			(at 157.48 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 157.48 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Ovo_Pad:Pad_THTPad_3x1.3mmx3"
+			(at 154.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 154.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e0b40ca-558b-4625-ba4d-feae8003e25a")
+		)
+		(pin "2"
+			(uuid "8a4ec920-440d-4eed-bede-230d01ff0be4")
+		)
+		(pin "3"
+			(uuid "b1767790-cc23-4bc2-a379-11cb413dd257")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ovo_Device:LED_Dual_Red_Blue_AKAK")
+		(at 27.94 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c416fbbf-18c0-4aec-b8a6-dea0c8544d48")
+		(property "Reference" "D10"
+			(at 27.813 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Dual_Red_Blue_AKAK"
+			(at 36.83 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Ovo_LED_SMD:LED_Dual_1.6x1.5mm"
+			(at 28.702 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 28.702 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef82d74f-5a9b-475a-bbaf-d722c3dd0ef4")
+		)
+		(pin "2"
+			(uuid "41a77fdd-6af6-4b61-87f9-d2365b615465")
+		)
+		(pin "3"
+			(uuid "673708d0-2d26-4290-911d-450624e366d7")
+		)
+		(pin "4"
+			(uuid "9af542cc-13c8-40ca-89c3-526068987ea3")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+			(project "cleanrobot-square-baro"
+				(path "/ede4fe08-9f98-400f-94ec-0296c9debddf"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ovo_Device:LED_Dual_Red_Blue_AKAK")
+		(at 27.94 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "caf6cf71-7a2a-4263-bd09-153e4c94a3b8")
+		(property "Reference" "D9"
+			(at 27.813 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Dual_Red_Blue_AKAK"
+			(at 36.83 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Ovo_LED_SMD:LED_Dual_1.6x1.5mm"
+			(at 28.702 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 28.702 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "111f492c-d059-4d1e-8a40-fcd91a4a0e42")
+		)
+		(pin "2"
+			(uuid "4a684130-b2c2-495e-a252-ab78c900b1ba")
+		)
+		(pin "3"
+			(uuid "17781034-8b9a-4622-96e0-e7958922cbbd")
+		)
+		(pin "4"
+			(uuid "fb20c379-b12d-4efe-a349-25e1c3675cc0")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+			(project "cleanrobot-square-baro"
+				(path "/ede4fe08-9f98-400f-94ec-0296c9debddf"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ovo_Device:LED_Dual_Red_Blue_AKAK")
+		(at 27.94 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d01c9c58-6e75-4962-9368-67ebb964b792")
+		(property "Reference" "D3"
+			(at 27.813 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Dual_Red_Blue_AKAK"
+			(at 36.83 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Ovo_LED_SMD:LED_Dual_1.6x1.5mm"
+			(at 28.702 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 28.702 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff0bfcf5-947e-4295-9ccd-c9368e17a3f6")
+		)
+		(pin "2"
+			(uuid "b00fe366-e83a-4256-93a1-caafa1b0423a")
+		)
+		(pin "3"
+			(uuid "5aaea00c-8f95-4621-a1ac-a60fd447bfec")
+		)
+		(pin "4"
+			(uuid "79458f98-edcd-43c1-a660-c51a20a7fc9c")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+			(project "cleanrobot-square-baro"
+				(path "/ede4fe08-9f98-400f-94ec-0296c9debddf"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ovo_Device:LED_Dual_Red_Blue_AKAK")
+		(at 68.58 63.246 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d357b6af-8719-452a-8002-dd451a434c1d")
+		(property "Reference" "D13"
+			(at 68.453 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Dual_Red_Blue_AKAK"
+			(at 77.47 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Ovo_LED_SMD:LED_Dual_1.6x1.5mm"
+			(at 69.342 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.342 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aee95714-7ab1-4940-b5c0-72eb8a814e9e")
+		)
+		(pin "2"
+			(uuid "b3965def-030e-4f37-89d9-4ba639bdc2de")
+		)
+		(pin "3"
+			(uuid "e177bdbb-e9a1-4440-b530-9171c1c38093")
+		)
+		(pin "4"
+			(uuid "48a77d6c-be98-4171-a399-dca38f646f66")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 60.96 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5b2917d-5407-4e5d-90f0-3481b8ce68ef")
+		(property "Reference" "#PWR01"
+			(at 60.96 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 60.96 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ad3be77-eaaf-461f-8ef1-935783896320")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "cleanrobot-led"
+				(path "/b1eec9cf-e741-4381-9e31-8c55c1656c87"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ovo_Device:LED_Dual_Red_Blue_AKAK")
+		(at 27.94 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffae316a-222f-4b3e-8fe9-624a0cf9c25d")
+		(property "Reference" "D8"
+			(at 27.813 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_Dual_Red_Blue_AKAK"
+			(at 36.83 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Ovo_LED_SMD:LED_Dual_1.6x1.5mm"
+			(at 28.702 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 28.702 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7056f3a1-1ac5-4a49-8014-a4563301566c")
+		)
+		(pin "2"
+			(uuid "39af30c4-2429-4eb9-b977-56cd3b7dfa2d")
+		)
+		(pin "3"
+			(uuid "c2609b81-ce19-4989-ac5b-a129a594c182")
+		)
+		(pin "4"
+			(uuid "4f5df284-84ad-47f0-8256-82d52822fa83")
+		)
+		(instances
+			(project "cleanrobot-square-Ambient-light-16"
+				(path "/0554ff2d-bfd2-42bf-926b-af26d737321f"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+			(project "cleanrobot-square-baro"
+				(path "/ede4fe08-9f98-400f-94ec-0296c9debddf"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
